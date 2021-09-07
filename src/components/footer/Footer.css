@@ -1,0 +1,48 @@
+.footer-container {
+  background-color: #1f0c02;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.logo-container {
+  text-align: center;
+}
+
+.logo {
+  position: relative;
+  height: 200px;
+  width: 200px;
+}
+
+.certificate {
+  position: relative;
+  height: 100px;
+  width: 150px;
+  margin-top: 20px;
+  border: 7px solid #3f3c3b !important;
+}
+
+.language-btn {
+  text-align: center;
+  margin: 20px;
+  border: none;
+  outline: none;
+}
+
+.btn-secondary {
+  text-align: center;
+  margin: 20px;
+  border: none;
+  background: white;
+  color: black;
+}
+
+.btn-info {
+  text-align: center;
+  margin: 20px;
+  border: none;
+  background: #0563ae;
+}
