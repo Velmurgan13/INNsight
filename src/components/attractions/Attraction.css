@@ -1,0 +1,76 @@
+.attraction-container {
+  background-color: #f2ece0;
+}
+
+.attraction-description {
+  margin-bottom: 20px;
+}
+
+.content {
+  color: black;
+}
+
+.image {
+  position: relative;
+  width: 450px;
+}
+
+.image__img {
+  display: block;
+  width: 100%;
+}
+
+.image-overlap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  font-family: sans-serif;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.25s;
+}
+
+.image-overlap--blur {
+  backdrop-filter: blur(5px);
+}
+
+.image-overlap > * {
+  transform: translateY(20px);
+  transition: transform 0.25s;
+}
+
+.image-overlap:hover {
+  opacity: 1;
+}
+
+.image-overlap:hover > * {
+  transform: translateY(0);
+}
+
+.image-title {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+.image-description {
+  padding: 10px;
+  font-size: 1.25em;
+  margin-top: 0.25em;
+}
+
+.btn {
+  background-color: #302923;
+  color: white;
+}
+
+.view-btn {
+  margin-top: 100px;
+}
